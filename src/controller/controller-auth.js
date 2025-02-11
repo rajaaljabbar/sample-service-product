@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const { encrypt, decrypt } = require("../helper/authHelper");
 require("dotenv").config();
 
-// 🔑 Dummy User (Gantilah dengan database jika sudah ada)
+//  Dummy User
 const users = [
   {
     id: 1,
